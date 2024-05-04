@@ -1,0 +1,81 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.712531",
+   "Default View_TopLeft":"-257,1677",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 7 -x 1810 -y 1860 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 7 -x 1810 -y 1880 -defaultsOSRD
+preplace port port-id_Enable -pg 1 -lvl 0 -x 0 -y 1770 -defaultsOSRD
+preplace port port-id_clear -pg 1 -lvl 0 -x 0 -y 1790 -defaultsOSRD
+preplace portBus sel -pg 1 -lvl 0 -x 0 -y 2080 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x 240 -y 1940 -defaultsOSRD
+preplace inst Mux_8x1_0 -pg 1 -lvl 4 -x 1230 -y 2020 -defaultsOSRD
+preplace inst synchronizer_0 -pg 1 -lvl 2 -x 640 -y 1760 -defaultsOSRD
+preplace inst Mux_8x1_1 -pg 1 -lvl 4 -x 1230 -y 440 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 6 -x 1670 -y 1750 -defaultsOSRD
+preplace inst Counter_1_0 -pg 1 -lvl 5 -x 1430 -y 1690 -defaultsOSRD
+preplace inst Counter_1_1 -pg 1 -lvl 5 -x 1430 -y 950 -defaultsOSRD
+preplace inst ring_osc_0 -pg 1 -lvl 3 -x 920 -y 1080 -defaultsOSRD
+preplace inst ring_osc_8 -pg 1 -lvl 3 -x 920 -y 760 -defaultsOSRD
+preplace inst ring_osc_1 -pg 1 -lvl 3 -x 920 -y 1180 -defaultsOSRD
+preplace inst ring_osc_9 -pg 1 -lvl 3 -x 920 -y 660 -defaultsOSRD
+preplace inst ring_osc_2 -pg 1 -lvl 3 -x 920 -y 1280 -defaultsOSRD
+preplace inst ring_osc_10 -pg 1 -lvl 3 -x 920 -y 560 -defaultsOSRD
+preplace inst ring_osc_3 -pg 1 -lvl 3 -x 920 -y 1380 -defaultsOSRD
+preplace inst ring_osc_11 -pg 1 -lvl 3 -x 920 -y 460 -defaultsOSRD
+preplace inst ring_osc_4 -pg 1 -lvl 3 -x 920 -y 1480 -defaultsOSRD
+preplace inst ring_osc_12 -pg 1 -lvl 3 -x 920 -y 60 -defaultsOSRD
+preplace inst ring_osc_5 -pg 1 -lvl 3 -x 920 -y 1580 -defaultsOSRD
+preplace inst ring_osc_13 -pg 1 -lvl 3 -x 920 -y 160 -defaultsOSRD
+preplace inst ring_osc_6 -pg 1 -lvl 3 -x 920 -y 1680 -defaultsOSRD
+preplace inst ring_osc_14 -pg 1 -lvl 3 -x 920 -y 360 -defaultsOSRD
+preplace inst ring_osc_7 -pg 1 -lvl 3 -x 920 -y 1780 -defaultsOSRD
+preplace inst ring_osc_15 -pg 1 -lvl 3 -x 920 -y 260 -defaultsOSRD
+preplace inst comparator_0 -pg 1 -lvl 6 -x 1670 -y 1580 -defaultsOSRD
+preplace inst keyDetector_0 -pg 1 -lvl 3 -x 920 -y 920 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -x 640 -y 880 -defaultsOSRD
+preplace inst rst_ps7_0_50M -pg 1 -lvl 1 -x 240 -y 1660 -defaultsOSRD
+preplace netloc Counter_1_1_Countout 1 5 1 1540 1600n
+preplace netloc Countout 1 5 1 1530 950n
+preplace netloc Enable_1 1 2 4 790 1840 1130J 1780 NJ 1780 NJ
+preplace netloc Enable_2 1 0 2 NJ 1770 NJ
+preplace netloc Mux_8x1_0_m_out 1 4 1 1340 1680n
+preplace netloc Mux_8x1_1_m_out 1 4 1 1330 440n
+preplace netloc clear_1 1 0 5 NJ 1790 470J 1850 NJ 1850 1120J 1750 1330
+preplace netloc comparator_0_key 1 2 5 820 1870 NJ 1870 NJ 1870 1530 1870 1790
+preplace netloc inv_out 1 3 1 1110 1080n
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 6 20 1780 480 1010 810 1020 NJ 1020 NJ 1020 1520
+preplace netloc ring_osc_10_inv_out 1 3 1 1020J 480n
+preplace netloc ring_osc_11_inv_out 1 3 1 NJ 460
+preplace netloc ring_osc_12_inv_out 1 3 1 1130J 60n
+preplace netloc ring_osc_13_inv_out 1 3 1 1120J 160n
+preplace netloc ring_osc_14_inv_out 1 3 1 1020J 360n
+preplace netloc ring_osc_15_inv_out 1 3 1 1110J 260n
+preplace netloc ring_osc_1_inv_out 1 3 1 1100 1180n
+preplace netloc ring_osc_2_inv_out 1 3 1 1090 1280n
+preplace netloc ring_osc_3_inv_out 1 3 1 1080 1380n
+preplace netloc ring_osc_4_inv_out 1 3 1 1070 1480n
+preplace netloc ring_osc_5_inv_out 1 3 1 1060 1580n
+preplace netloc ring_osc_6_inv_out 1 3 1 1050 1680n
+preplace netloc ring_osc_7_inv_out 1 3 1 1030 1780n
+preplace netloc ring_osc_8_inv_out 1 3 1 1120J 520n
+preplace netloc ring_osc_9_inv_out 1 3 1 1030J 500n
+preplace netloc sel_1 1 0 6 NJ 2080 NJ 2080 NJ 2080 1040 1760 NJ 1760 NJ
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 2 30 1760 450
+preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 1 2 470 1000 800J
+preplace netloc processing_system7_0_DDR 1 1 6 NJ 1860 NJ 1860 NJ 1860 NJ 1860 NJ 1860 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 1 6 NJ 1880 NJ 1880 NJ 1880 NJ 1880 NJ 1880 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 460 820n
+preplace netloc ps7_0_axi_periph_M00_AXI 1 2 1 N 880
+levelinfo -pg 1 0 240 640 920 1230 1430 1670 1810
+pagesize -pg 1 -db -bbox -sgen -100 0 1930 2160
+"
+}
+{
+   "da_axi4_cnt":"2",
+   "da_board_cnt":"1",
+   "da_clkrst_cnt":"11",
+   "da_ps7_cnt":"2"
+}
